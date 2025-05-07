@@ -18,19 +18,19 @@
                 "decryption":"none",
                 "fallbacks":[
                     {
-                        "dest":6001
+                        "dest":5001
                     },
                     {
                         "path":"/vless-argo",
-                        "dest":6002
+                        "dest":5002
                     },
                     {
                         "path":"/vmess-argo",
-                        "dest":6003
+                        "dest":5003
                     },
                     {
                         "path":"/trojan-argo",
-                        "dest":6004
+                        "dest":5004
                     }
                 ]
             },
@@ -39,7 +39,7 @@
             }
         },
         {
-            "port":6001,
+            "port":5001,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
@@ -56,7 +56,7 @@
             }
         },
         {
-            "port":6002,
+            "port":5002,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
@@ -86,7 +86,7 @@
             }
         },
         {
-            "port":6003,
+            "port":5003,
             "listen":"127.0.0.1",
             "protocol":"vmess",
             "settings":{
@@ -114,7 +114,7 @@
             }
         },
         {
-            "port":6004,
+            "port":5004,
             "listen":"127.0.0.1",
             "protocol":"trojan",
             "settings":{
